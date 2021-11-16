@@ -1,0 +1,17 @@
+﻿FUNCTION "Add" : Void
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      xreVal1 : Real;
+      xreVal2 : Real;
+   END_VAR
+
+   VAR_OUTPUT 
+      yreResult : Real;
+   END_VAR
+
+
+BEGIN
+	#yreResult := #xreVal1 + #xreVal2;
+END_FUNCTION
+
